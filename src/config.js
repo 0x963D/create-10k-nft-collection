@@ -9,12 +9,12 @@ const network = NETWORK.eth;
 const namePrefix = "New Yolk {Hens}";
 const description =
   "Welcome to the New Yolk Farm Collection on OpenSea! Own a piece of our digital farm and immerse yourself in the joy of nurturing, trading, and reaping the rewards of your virtual assets. Dive into the world of blockchain farming today! 🐔🚀🌱";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://QmRoV31Fn7xxHPXENHvvBki2ANRuhNDQ2JUR2pf9zqLXym"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 30000,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
